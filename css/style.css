@@ -1,0 +1,320 @@
+body{
+    background-color: #2196f3;
+}
+.flex{
+    display: flex;
+}
+header{
+   
+    height:7rem;
+    width: 50rem;
+    align-items: center;
+    justify-items: center;
+    margin-left: 35%;
+    margin-top: 1rem;
+    background-color: #83f52c;
+    box-shadow: 0 0 10px #83f52c,0 0 10px #83f52c,0 0 10px #83f52c;
+}
+header h1{
+    padding-left:10rem;
+    padding-top: 40px;
+    justify-items: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color:#2196f3;
+}
+.uprow{
+    margin-top: 10rem;
+    margin-left: 7rem;
+    width: 100%;
+    
+}
+.box1{
+    
+    height: 900px;
+    width: 500px;  
+    transition: .3s;
+    background-image: url('../BlackArt/1.jpg');
+    animation: fade1 20s infinite;
+    margin-right:5rem;
+    box-shadow: 0 0 50px white;
+    -webkit-animation: fade1 20s infinite ;
+    -moz-animation: fade1 20s infinite ;
+}
+@keyframes fade1{
+    20%{
+        background-image: url('../BlackArt/2.jpg');
+    }
+    40%{
+        background-image: url('../BlackArt/3.jpg');
+    }
+    60%{
+        background-image: url('../BlackArt/4.jpg');
+    }
+    80%{
+        background-image: url('../BlackArt/5.jpg');
+    }
+    100%{
+        background-image: url('../BlackArt/1.jpg');
+    }
+}
+
+
+.box2{
+    
+    height: 900px;
+    width: 500px;  
+    transition: .3s;
+    background-color: black;
+    background-image: url('../BlackArt/6jpg');
+    animation: fade2 20s infinite;
+    margin-right:5rem;box-shadow: 0 0 50px white;
+}
+@keyframes fade2{
+    20%{
+        background-image: url('../BlackArt/7.jpg');
+    }
+    40%{
+        background-image: url('../BlackArt/8.jpg');
+    }
+    60%{
+        background-image: url('../BlackArt/9.jpg');
+    }
+    80%{
+        background-image: url('../BlackArt/10.jpg');
+    }
+    100%{
+        background-image: url('../BlackArt/6.jpg');
+    }
+}
+
+
+.box3{
+    
+    height: 900px;
+    width: 500px;  
+    transition: .3s;
+    background-image: url('../BlackArt/11.jpg');
+    animation: fade3 20s infinite;
+    margin-right:5rem;box-shadow: 0 0 50px white;
+}
+@keyframes fade3{
+    20%{
+        background-image: url('../BlackArt/12.jpg');
+    }
+    40%{
+        background-image: url('../BlackArt/13.jpg');
+    }
+    60%{
+        background-image: url('../BlackArt/14.jpg');
+    }
+    80%{
+        background-image: url('../BlackArt/15.jpg');
+    }
+    100%{
+        background-image: url('../BlackArt/12.jpg');
+    }
+}
+
+
+.box4{
+   
+    height: 900px;
+    width: 500px;  
+    transition: .3s;
+    background-image: url('../BlackArt/20.jpg');
+    animation: fade4 20s infinite;
+    margin-right:5rem;box-shadow: 0 0 50px white;
+}
+@keyframes fade4{
+    20%{
+        background-image: url('../BlackArt/16.jpg');
+    }
+    40%{
+        background-image: url('../BlackArt/17.jpg');
+    }
+    60%{
+        background-image: url('../BlackArt/18.jpg');
+    }
+    80%{
+        background-image: url('../BlackArt/19.jpg');
+    }
+    100%{
+        background-image: url('../BlackArt/20.jpg');
+    }
+}
+
+
+.box5{
+    
+    height: 900px;
+    width: 500px;  
+    transition: .3s;
+    background-image: url('../BlackArt/21.jpg');
+    animation: fade5 20s infinite;
+    margin-right:5rem;box-shadow: 0 0 50px white;
+}
+@keyframes fade5{
+    20%{
+        background-image: url('../BlackArt/22.jpg');
+    }
+    40%{
+        background-image: url('../BlackArt/23.jpg');
+    }
+    60%{
+        background-image: url('../BlackArt/24.jpg');
+    }
+    80%{
+        background-image: url('../BlackArt/25.jpg');
+    }
+    100%{
+        background-image: url('../BlackArt/21.jpg');
+    }
+}
+
+.dnrow{
+    margin-top: 10rem;
+    margin-left: 7rem;
+    width: 100%;
+}
+
+
+.box6{
+    
+    height: 900px;
+    width: 500px;  
+    transition: .3s;
+    background-image: url('../BlackArt/26.jpg');
+    animation: fade6 20s infinite;
+    margin-right:5rem;box-shadow: 0 0 50px white;
+}
+@keyframes fade6{
+    20%{
+        background-image: url('../BlackArt/27.jpg');
+    }
+    40%{
+        background-image: url('../BlackArt/28.jpg');
+    }
+    60%{
+        background-image: url('../BlackArt/29.jpg');
+    }
+    80%{
+        background-image: url('../BlackArt/30.jpg');
+    }
+    100%{
+        background-image: url('../BlackArt/26.jpg');
+    }
+}
+
+
+.box7{
+    
+    height: 900px;
+    width: 500px;  
+    transition: .3s;
+    background-image: url('../BlackArt/31.jpg');
+    animation: fade7 20s infinite;
+    margin-right:5rem;box-shadow: 0 0 50px white;
+}
+@keyframes fade7{
+    20%{
+        background-image: url('../BlackArt/32.jpg');
+    }
+    40%{
+        background-image: url('../BlackArt/33.jpg');
+    }
+    60%{
+        background-image: url('../BlackArt/34.jpg');
+    }
+    80%{
+        background-image: url('../BlackArt/35.jpg');
+    }
+    100%{
+        background-image: url('../BlackArt/31.jpg');
+    }
+}
+.box8{
+    
+    height: 900px;
+    width: 500px;  
+    transition: .3s;
+    background-image: url('../BlackArt/36.jpg');
+    animation: fade8 20s infinite;
+    margin-right:5rem;box-shadow: 0 0 50px white;
+}
+@keyframes fade8{
+    20%{
+        background-image: url('../BlackArt/37.jpg');
+    }
+    40%{
+        background-image: url('../BlackArt/38.jpg');
+    }
+    60%{
+        background-image: url('../BlackArt/39.jpg');
+    }
+    80%{
+        background-image: url('../BlackArt/1.jpg');
+    }
+    100%{
+        background-image: url('../BlackArt/37.jpg');
+    }
+}
+
+
+.box9{
+   
+    height: 900px;
+    width: 500px;  
+    transition: .3s;
+    background-image: url('../BlackArt/7.jpg');
+    animation: fade9 20s infinite;
+    margin-right:5rem;box-shadow: 0 0 50px white;
+}
+@keyframes fade9{
+    20%{
+        background-image: url('../BlackArt/12.jpg');
+    }
+    40%{
+        background-image: url('../BlackArt/17.jpg');
+    }
+    60%{
+        background-image: url('../BlackArt/14.jpg');
+    }
+    80%{
+        background-image: url('../BlackArt/27.jpg');
+    }
+    100%{
+        background-image: url('../BlackArt/7.jpg');
+    }
+}
+
+
+.box10{
+   
+    height: 900px;
+    width: 500px;  
+    transition: .3s;
+    background-image: url('../BlackArt/8.jpg');
+    animation: fade10 20s infinite;
+    margin-right:5rem;box-shadow: 0 0 50px white;
+}
+@keyframes fade10{
+    20%{
+        background-image: url('../BlackArt/23.jpg');
+    }
+    40%{
+        background-image: url('../BlackArt/31.jpg');
+    }
+    60%{
+        background-image: url('../BlackArt/4.jpg');
+    }
+    80%{
+        background-image: url('../BlackArt/15.jpg');
+    }
+    100%{
+        background-image: url('../BlackArt/8.jpg');
+    }
+}
+
